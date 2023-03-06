@@ -1,0 +1,91 @@
+body{
+    background-color: aliceblue;
+}
+.encabezado{
+    background-color: azure;
+    color: blueviolet;
+    width: 100%;
+    height: 200%;
+    
+}
+.encabezado .datos img{
+    width: 400px;
+    height: 500x;
+    border-radius: 20%
+}
+
+.encabezado .datos h1{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 35px
+    
+}.encabezado .datos p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+i{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+
+}
+.campo1 {
+    color:blueviolet;
+}
+.campo1 fieldset{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+    background-color:#F5E5FC;
+    margin-top: 60px;
+    border-color: blue;
+}
+.campo1 legend{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    border-radius: 15%;
+    background-color: beige
+    
+}
+.campo2{
+    color: blueviolet;
+}
+.campo2 fieldset{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #F0BCD4;
+    border-color:blue;
+    border-radius: 20px;
+
+}
+.campo2 legend i {
+    
+    font-size: 50px;
+    border-radius: 15%;
+    background-color: yellow;
+    ;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+.leerMas_btn{
+    background-color: yellow;
+    border-color: blue;
+    border-radius: 15px;
+    color: blueviolet;
+    cursor: pointer;
+    font-size: x-large;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.leerMas_btn:hover{
+    background-color: peachpuff;
+}
